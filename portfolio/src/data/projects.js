@@ -43,4 +43,4 @@ export const projectObjsArr = [
         isFeature: false
     }]
 
-export const languages = ["HTML", "CSS", "JavaScript", "PHP", "Python", "Java", "jQuery", "Node", "Tailwind"];
+export const languages = ["HTML", "CSS", "JavaScript", "jQuery", "Node", "Tailwind", "AWS", "TypeScript", "React", "PHP", "Python", "Java", "mySQL", "dyanmoDB", "mongoDB"];
