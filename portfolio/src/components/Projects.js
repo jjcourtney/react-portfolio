@@ -2,6 +2,7 @@ import { useState } from "react"
 
 import ProjectCard from "./ProjectCard";
 import { projectObjsArr } from "../data/projects";
+import { primary, secondary } from "../data/colourPalette";
 
 
 
@@ -31,11 +32,11 @@ function Project() {
     return (
 
         <article className="flex flex-nowrap h-1/2 justify-around align-middle bg-cover bg-bgBlue">
-            <button className="text-red-700  text-8xl content-middle" id="left-click" onClick={handleArrowClick} style={{ fontFamily: "lobster" }}>
+            <button className={`text-${secondary} border-2 border-${secondary} my-auto p-4 text-6xl bg-${primary} h-28 align-middle rounded-full shadow-lg hover:text-${primary} hover:bg-${secondary} font-mono`} id="left-click" onClick={handleArrowClick} >
                 {`<`}
             </button>
             {projectObjsArr.map((project, index) => projectsToDisplay.includes(index) ? <ProjectCard project={project} className="inline-block h-40 shadow-inner rounded-md" /> : "")}
-            <button className="text-red-700  text-8xl content-middle" id="right-click" onClick={handleArrowClick} style={{ fontFamily: "lobster" }}>
+            <button className={`text-${secondary} border-2 border-${secondary} my-auto p-4 text-6xl bg-${primary} h-28 align-middle rounded-full shadow-lg hover:text-${primary} hover:bg-${secondary} font-mono`} id="right-click" onClick={handleArrowClick} >
                 {`>`}
             </button>
         </article>
