@@ -6,15 +6,21 @@ export const contactInfoArray = [
         image: ""
     },
     {
-        name: "github",
+        name: "Github",
         url: "https://github.com/jjcourtney",
         content: "https://github.com/jjcourtney",
         image: ""
     },
     {
-        name: "email",
+        name: "Email",
         url: "mailto:jcourtneywork@gmail.com",
         content: "jcourtneywork@gmail.com",
+        image: ""
+    },
+    {
+        name: "Download CV",
+        url: "https://www.realalgorithm.co.uk/Jon_Courtney.pdf",
+        content: "CV",
         image: ""
     }
 ];
