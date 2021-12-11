@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         'splash1': "url('./images/splash1.jpg')",
         'splash2': "url('./images/splash2.jpg')",
+        'splash3': "url('./images/splash3.jpg')",
+        'bgBlue': "url('./images/bg-blue.jpg')",
+        'bgGray': "url('./images/bg-gray.png')",
       },
       minHeight: {
         '0': '0',
