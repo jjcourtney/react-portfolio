@@ -16,7 +16,7 @@ function App() {
       <Navbar setCurrentPage={setCurrentPage} />
       <Splash />
       {currentPage === "about" ? <About /> : ""}
-      {currentPage === "project" ? <Project /> : ""}
+      {currentPage === "personal" ? <Project /> : ""}
       {currentPage === "languages" ? <Languages /> : ""}
       <Footer className="bottom-0 absolute" />
     </div>
