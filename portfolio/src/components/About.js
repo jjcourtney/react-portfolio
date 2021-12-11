@@ -1,11 +1,11 @@
-import { primary, secondary, tertiary } from "../data/colourPalette";
+import { primary, secondary } from "../data/colourPalette";
 
 
 function About() {
     return (
-        <article className={`w-screen flex justify-center bg-${primary} min-h-1/2`}>
-            <div className={`flex justify-center max-w-5/6 border-2 border-${secondary} rounded-md mx-24 p-2 my-16 opacity-60`}>
-                <p className={`font-serif  m-auto text-${secondary} p-2  rounded-md align-middle md:text-xl lg:text-2xl sm:text-md xs:text-sx`}>
+        <article className={`w-screen flex justify-center min-h-1/2 bg-bgBlue bg-cover`}>
+            <div className={`flex justify-center max-w-5/6 border-2 border-${secondary} rounded-md mx-24 p-2 my-16 bg-${primary}`}>
+                <p className={`font-sans  m-auto text-${secondary} p-2  rounded-md align-middle md:text-xl lg:text-2xl xl:text-3xl sm:text-md xs:text-sx`}>
                     I am a full stack developer with commercial experience in node.js,
                     Typescript and AWS (CDK infrastucture as code).
                     I love problem solving and have a passion for development.

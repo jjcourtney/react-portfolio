@@ -30,7 +30,7 @@ function Project() {
     }
     return (
 
-        <article className="flex flex-nowrap h-1/2 justify-around align-middle">
+        <article className="flex flex-nowrap h-1/2 justify-around align-middle bg-cover bg-bgBlue">
             <button className="text-red-700  text-8xl content-middle" id="left-click" onClick={handleArrowClick} style={{ fontFamily: "lobster" }}>
                 {`<`}
             </button>

@@ -3,7 +3,7 @@ function Splash() {
     return (
         <>
 
-            <div className="bg-splash1 w-screen bg-cover bg-center h-36"></div>
+            <div className="bg-splash2 w-screen bg-cover bg-center h-36"></div>
         </>
     )
 }
