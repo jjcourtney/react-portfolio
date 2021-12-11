@@ -1,8 +1,6 @@
 import { primary, secondary } from "../data/colourPalette";
 import { contactInfoArray } from "../data/contactInfo";
 
-const links = ["about me", "personal projects", "languages", "contact"]
-
 function Footer() {
     return (
         <footer className={`w-screen bg-${primary}`}>
