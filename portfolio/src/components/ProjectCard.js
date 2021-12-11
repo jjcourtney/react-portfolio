@@ -4,7 +4,7 @@ function ProjectCard({ project }) {
     return (
         <>
             <article className="w-200 flex flex-col justify-start bg-black  border-2 p-2 border-red-700 rounded-2xl">
-                <h1 className="text-4xl text-red-700 my-auto ml-3 block" style={{ fontFamily: 'Lobster' }}>
+                <h1 className="text-4xl text-red-700 my-auto py-3 ml-3 block border-2 border-red-700 rounded-md" style={{ fontFamily: 'Lobster' }}>
                     {project.name}
                 </h1>
                 <div className="block">
