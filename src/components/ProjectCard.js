@@ -1,12 +1,19 @@
 import { primary, secondary, tertiary } from "../data/colourPalette";
-import dailyPlanner from "daily-planner.png";
-import htmlQuiz from "html-planner.png";
-import infoCraft from "infoCraft.png";
-import passwordGen from "password-gen.png";
-import periodic from "periodic.png";
-import weatherDash from "weather-dash.png";
+import dailyPlanner from "../images/dailyPlanner.png";
+import htmlQuiz from "../images/htmlQuiz.png";
+import infoCraft from "../images/infoCraft.png";
+import passwordGen from "../images/passwordGen.png";
+import periodic from "../images/periodic.png";
+import weatherDash from "../images/weatherDash.png";
 
-
+const imagesURL = {
+    dailyPlanner,
+    htmlQuiz,
+    infoCraft,
+    passwordGen,
+    periodic,
+    weatherDash
+}
 
 function ProjectCard({ project }) {
     return (
@@ -16,7 +23,7 @@ function ProjectCard({ project }) {
                     {project.name}
                 </h1>
                 <div className="block">
-                    <a href={project.url}> <img src={project.image} alt="name" className="rounded-2xl filter hover:filter md:h-56 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" /> </a>
+                    <a href={project.url}> <img src={imagesURL[project.image]} alt="name" className="rounded-2xl filter hover:filter md:h-56 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" /> </a>
                 </div>
                 <p className={`text-${secondary} hover:shadow-lg hover:text-${tertiary} text-2xl block`}><a href={project.repoURL}> Github Repo </a></p>
                 <ul className="block">
