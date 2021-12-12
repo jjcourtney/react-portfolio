@@ -1,4 +1,11 @@
 import { primary, secondary, tertiary } from "../data/colourPalette";
+import dailyPlanner from "daily-planner.png";
+import htmlQuiz from "html-planner.png";
+import infoCraft from "infoCraft.png";
+import passwordGen from "password-gen.png";
+import periodic from "periodic.png";
+import weatherDash from "weather-dash.png";
+
 
 
 function ProjectCard({ project }) {
