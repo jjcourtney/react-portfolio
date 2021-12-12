@@ -4,6 +4,14 @@
 
 I am a full stack developer with commercial experience in node.js, Typescript and AWS (CDK infrastucture as code). I love problem solving and have a passion for development. I have been in people and project management for 17 years, and therefor bring a unique set of skills into the world of web development. A passion for everything code over the last 20 years has now driven me in to changing my career path into web development.
 
+## Deployment
+
+https://jjcourtney.github.io/react-portfolio/
+
+## Github
+
+https://github.com/jjcourtney/react-portfolio
+
 ## Table of contents
 
 - [License](#license)
@@ -32,10 +40,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Screenshot
+
+![Screenshot](./src/images/screenshot.gif)
+
 ## License
 
 This is covered under The MIT License:
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions
 
