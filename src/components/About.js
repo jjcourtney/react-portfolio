@@ -9,7 +9,7 @@ function About() {
                     I am a full stack developer with commercial experience in node.js,
                     Typescript and AWS (CDK infrastucture as code).
                     I love problem solving and have a passion for development.
-                    I have been in people and project management for 17 years, and therefor
+                    I have been in people and project management for 17 years, and therefore
                     bring a unique set of skills into the world of web development. A passion
                     for everything code over the last 20 years has now driven me in to changing
                     my career path into web development.
