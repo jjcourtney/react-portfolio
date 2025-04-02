@@ -1,3 +1,4 @@
+import cv from "../images/cv.pdf"
 export const contactInfoArray = [
     {
         name: "linkedIn",
@@ -19,7 +20,7 @@ export const contactInfoArray = [
     },
     {
         name: "Download CV",
-        url: "https://www.realalgorithm.co.uk/Jon_Courtney.pdf",
+        url: cv,
         content: "CV",
         image: ""
     }
